@@ -87,6 +87,11 @@ public:
             this->push_back(other.get(z));
     }
 
+    T operator[](int index)
+    {
+        return this->get(index);
+    }
+
     // Function that returns the number of
     // elements in array after pushing the data
     void push_back(T data)
