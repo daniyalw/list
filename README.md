@@ -1,2 +1,2 @@
 # list
-A list class in C++.
+A dependency-free list class in C++. Header only.
