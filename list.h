@@ -92,6 +92,12 @@ public:
         return this->get(index);
     }
 
+    void merge(list<T> other)
+    {
+        for (int z = 0; z < other.size(); z++)
+            this->push_back(other[z]);
+    }
+
     // Function that returns the number of
     // elements in array after pushing the data
     void push_back(T data)
